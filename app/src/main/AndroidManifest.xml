@@ -4,19 +4,30 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/app_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.Login_page"></activity>
-        <activity android:name=".Activity.MainActivity">
+        <activity
+            android:name=".Activity.Home_Admin"
+            android:label="@string/title_activity_home__admin"></activity>
+        <activity
+            android:name=".Activity.Home_Tutor"
+            android:label="@string/title_activity_home__tutor" />
+        <activity
+            android:name=".Activity.Splash_Screen"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Activity.Login_page"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity android:name=".Activity.MainActivity" />
     </application>
 
 </manifest>
