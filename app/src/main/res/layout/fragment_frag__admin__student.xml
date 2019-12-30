@@ -3,12 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragment.Frag_Admin_Student">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            app:queryHint="Student name"
+            android:layout_margin="11dp"
+            android:background="@drawable/rectangle_black_border_background"
+            android:layout_height="wrap_content"></androidx.appcompat.widget.SearchView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerView"
+            android:layoutAnimation="@anim/layout_animation_left_to_right"
+            android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
 </FrameLayout>

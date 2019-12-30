@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="11dp"
+    android:layout_margin="7dp"
+    app:cardElevation="11dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Student Name :XYZ"
+            android:layout_margin="11dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"></TextView>
+        <co.ceryle.segmentedbutton.SegmentedButtonGroup
+            android:layout_width="match_parent"
+            app:sbg_animateSelector="bounce"
+            app:sbg_animateSelectorDuration="600"
+            app:sbg_backgroundColor="@android:color/white"
+            app:sbg_borderColor="@color/colorAccent"
+            app:sbg_borderSize="1dp"
+            app:sbg_radius="10dp"
+            app:sbg_dividerColor="@color/colorAccent"
+            app:sbg_dividerSize="1dp"
+            app:sbg_dividerPadding="9dp"
+            android:id="@+id/segmentedButtonGroup"
+            app:sbg_selectorColor="@color/colorAccent"
+            app:sbg_position="0"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:sbg_enabled="true"
+            app:sbg_rippleColor="@color/colorPrimaryDark"
+            app:sb_textColor_onSelection="@android:color/white"
+            app:sbg_ripple="true"
+            android:layout_height="44dp">
+            <co.ceryle.segmentedbutton.SegmentedButton
+                android:layout_width="match_parent"
+                app:sb_text="Present"
+                android:layout_weight="1"
+                app:sb_textSize="16sp"
+                app:sb_textColor_onSelection="@android:color/white"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/btn_present"
+                android:paddingLeft="11dp"
+                app:sb_textGravity="center"
+                android:paddingRight="11dp"
+                app:sb_textColor="@color/text_color"
+                android:layout_height="44dp"></co.ceryle.segmentedbutton.SegmentedButton>
+            <co.ceryle.segmentedbutton.SegmentedButton
+                android:layout_width="match_parent"
+                app:sb_text="Absent\n(with leave)"
+                app:sb_textSize="12dp"
+                android:paddingStart="22sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                app:sb_textGravity="center"
+                android:id="@+id/btn_absent_leave"
+                app:sb_textColor_onSelection="@android:color/white"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                app:sb_textColor="@color/text_color"
+                android:layout_height="44dp"></co.ceryle.segmentedbutton.SegmentedButton>
+
+            <co.ceryle.segmentedbutton.SegmentedButton
+                android:layout_width="match_parent"
+                app:sb_text="Absent\n(without leave)"
+                app:sb_textSize="12sp"
+                android:paddingStart="22dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                app:sb_textGravity="center"
+                android:id="@+id/btn_absent"
+                app:sb_textColor_onSelection="@android:color/white"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                app:sb_textColor="@color/text_color"
+                android:layout_height="44dp">
+            </co.ceryle.segmentedbutton.SegmentedButton>
+
+        </co.ceryle.segmentedbutton.SegmentedButtonGroup>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

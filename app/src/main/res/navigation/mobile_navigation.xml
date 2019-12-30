@@ -3,29 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_home_tutor">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_home_tutor"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Home"
-        android:label="@string/title_home"
+        android:label="                              Home"
         tools:layout="@layout/fragment_frag__tutor__home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_student_tutor"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Subject"
-        android:label="Subject"
+        android:label="                              Subject"
         tools:layout="@layout/fragment_frag__tutor__subject" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_batch_tutor"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Batch"
-        android:label="Batch"
+        android:label="                              Batch"
         tools:layout="@layout/fragment_frag__tutor__batch" />
 
     <fragment
-        android:id="@+id/navigation_notifications2"
+        android:id="@+id/navigation_profile_tutor"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Profile"
-        android:label="Profile"
+        android:label="                              Profile"
         tools:layout="@layout/fragment_frag__tutor__profile" />
+
 </navigation>

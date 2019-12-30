@@ -2,34 +2,38 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@+id/navigation_home"
+    app:startDestination="@+id/navigation_home_admin"
     android:id="@+id/mobile_navigation_admin">
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Home"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_frag__tutor__home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Subject"
-        android:label="Subject"
-        tools:layout="@layout/fragment_frag__tutor__subject" />
+        android:id="@+id/navigation_home_admin"
+        android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Admin_Home"
+        android:label="                         Home"
+        tools:layout="@layout/fragment_frag__admin__home" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Batch"
-        android:label="Batch"
-        tools:layout="@layout/fragment_frag__tutor__batch" />
+        android:id="@+id/navigation_student_admin"
+        android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Admin_Student"
+        android:label="                         Student"
+        tools:layout="@layout/fragment_frag__admin__student" />
 
     <fragment
-        android:id="@+id/navigation_notifications2"
-        android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Profile"
-        android:label="Student"
-        tools:layout="@layout/fragment_frag__tutor__profile" />
+        android:id="@+id/navigation_batch_admin"
+        android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Admin_Batch"
+        android:label="                         Batch"
+        tools:layout="@layout/fragment_frag__admin__batch" />
+
     <fragment
-        android:id="@+id/navigation_notifications3"
-        android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Profile"
-        android:label="Fee Management"
-        tools:layout="@layout/fragment_frag__tutor__profile" />
+        android:id="@+id/navigation_subject_admin"
+        android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Admin_Subject"
+        android:label="                         Subject"
+        tools:layout="@layout/fragment_frag__admin__subject" />
+
+
+    <fragment
+        android:id="@+id/navigation_fee_managment_admin"
+        android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Admin_Fee"
+        android:label="                         Fee Management"
+        tools:layout="@layout/fragment_frag__admin__fee" />
+
 </navigation>
