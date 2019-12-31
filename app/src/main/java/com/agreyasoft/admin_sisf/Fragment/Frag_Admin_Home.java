@@ -2,6 +2,7 @@ package com.agreyasoft.admin_sisf.Fragment;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -11,13 +12,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
+import com.agreyasoft.admin_sisf.Activity.Tutor_list;
 import com.agreyasoft.admin_sisf.Adapter.Adpter_Home_Admin;
 import com.agreyasoft.admin_sisf.POJO.Cons_Batch;
 import com.agreyasoft.admin_sisf.R;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.agreyasoft.admin_sisf.Activity.Home_Admin.home_admin_Activity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -43,6 +48,14 @@ public class Frag_Admin_Home extends Fragment {
         List<Cons_Batch> batch_list=new ArrayList<>();
         Adpter_Home_Admin adapter=new Adpter_Home_Admin(batch_list,con);
         recyclerView.setAdapter(adapter);
+
+        TextView btn_tutor_List=view.findViewById(R.id.tutor_list_btn);
+        btn_tutor_List.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(home_admin_Activity, Tutor_list.class));
+            }
+        });
         return view;
     }
 

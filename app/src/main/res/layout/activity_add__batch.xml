@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Add_Batch">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="111dp"
+                    android:layout_margin="22dp"
+                    android:src="@drawable/app_logo"></ImageView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:passwordToggleContentDescription="show"
+                    app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorAccent"
+                    android:id="@+id/txt_batch_name"
+                    android:layout_margin="11dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_passwordc"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:background="@drawable/desc_field_selector"
+                        android:hint="Batch Name"
+                        android:inputType="textPersonName"
+                        android:padding="11dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="11dp"
+                    android:background="@drawable/border_text_title"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Select Strdent "
+                        android:padding="11dp"
+                        android:layout_weight="1.5"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="12 Student "
+                        android:padding="11dp"
+                        android:layout_weight="1.5"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="11dp"
+                    android:id="@+id/time_picker"
+                    android:background="@drawable/border_text_title"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Batch Time "
+                        android:padding="11dp"
+                        android:layout_weight="1.5"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="11am - 12am "
+                        android:padding="11dp"
+                        android:id="@+id/txt_time"
+                        android:layout_weight="1.5"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="11dp"
+                    android:background="@drawable/border_text_title"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Tutor"
+                        android:padding="11dp"
+                        android:layout_weight="1.5"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"></TextView>
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:id="@+id/sp_tutor"
+                        android:layout_height="match_parent"></Spinner>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginBottom="11dp"
+                    android:background="@drawable/border_text_title"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Subject"
+                        android:padding="11dp"
+                        android:layout_weight="1.5"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"></TextView>
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:id="@+id/sp_subject"
+                        android:layout_height="match_parent"></Spinner>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="SUBMIT"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"></TextView>
+</LinearLayout>

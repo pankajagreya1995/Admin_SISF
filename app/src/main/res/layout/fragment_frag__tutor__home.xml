@@ -3,13 +3,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragment.Frag_Tutor_Home">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:id="@+id/recyclerView"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
 
-        android:layoutAnimation="@anim/layout_animation_left_to_right"
-        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_marginRight="18dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Tutor Home"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent"></TextView>
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerView"
+            android:layoutAnimation="@anim/layout_animation_left_to_right"
+            android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+
 
 </FrameLayout>

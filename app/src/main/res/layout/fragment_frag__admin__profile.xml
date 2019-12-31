@@ -3,8 +3,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragment.Frag_Admin_Profile">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
 
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_marginRight="18dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Admin Profile"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="match_parent"></TextView>
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"

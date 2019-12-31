@@ -8,25 +8,25 @@
     <fragment
         android:id="@+id/navigation_home_tutor"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Home"
-        android:label="                              Home"
+        android:label="Tutor Home"
         tools:layout="@layout/fragment_frag__tutor__home" />
 
     <fragment
         android:id="@+id/navigation_student_tutor"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Subject"
-        android:label="                              Subject"
+        android:label="Tutor Subject"
         tools:layout="@layout/fragment_frag__tutor__subject" />
 
     <fragment
         android:id="@+id/navigation_batch_tutor"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Batch"
-        android:label="                              Batch"
+        android:label="Tutor Batch"
         tools:layout="@layout/fragment_frag__tutor__batch" />
 
     <fragment
         android:id="@+id/navigation_profile_tutor"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Tutor_Profile"
-        android:label="                              Profile"
+        android:label="Tutor Profile"
         tools:layout="@layout/fragment_frag__tutor__profile" />
 
 </navigation>

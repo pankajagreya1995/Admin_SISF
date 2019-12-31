@@ -7,10 +7,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
+
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:visibility="gone"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginRight="11dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/img_button"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@android:drawable/ic_dialog_dialer"></ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginRight="11dp"
+                android:layout_height="match_parent">
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/my_toolbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    android:elevation="4dp"
+                    app:titleTextColor="@android:color/white"
+                    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    tools:ignore="MissingConstraints"></androidx.appcompat.widget.Toolbar>
+            </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Tutor"
+                    android:id="@+id/tutor_list_btn"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"></TextView>
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
         <fragment
             android:id="@+id/nav_host_fragment_admin"
             android:name="androidx.navigation.fragment.NavHostFragment"

@@ -12,7 +12,9 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
+import com.agreyasoft.admin_sisf.Activity.Add_Batch;
 import com.agreyasoft.admin_sisf.Activity.Attendance_page;
 import com.agreyasoft.admin_sisf.Activity.Home_Admin;
 import com.agreyasoft.admin_sisf.Adapter.Adpter_Home_Admin;
@@ -46,6 +48,13 @@ public class Frag_Admin_Batch extends Fragment{
         Adpter_Home_Admin adapter=new Adpter_Home_Admin(batch_list,con);
         recyclerView.setAdapter(adapter);
 
+        ImageView btn_batch_add=view.findViewById(R.id.add_batch_button);
+        btn_batch_add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home_Admin.home_admin_Activity, Add_Batch.class));
+            }
+        });
         return view;
     }
 }

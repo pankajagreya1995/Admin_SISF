@@ -9,6 +9,36 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_marginRight="18dp"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Admin Fee Management"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="match_parent"></TextView>
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
         <TextView
             android:layout_width="match_parent"
             android:text="Filter By:"

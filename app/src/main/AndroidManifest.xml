@@ -9,19 +9,32 @@
         android:roundIcon="@drawable/app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.Admin_student_details"></activity>
-        <activity android:name=".Activity.Admin_Subject_Details" />
+        <activity
+            android:name=".Activity.Add_Batch"
+            android:label="Add New Batch"></activity>
+        <activity
+            android:name=".Activity.Tutor_list"
+            android:label="Tutor List" />
+        <activity
+            android:name=".Activity.Admin_student_details"
+            android:label="Student Details" />
+        <activity
+            android:name=".Activity.Admin_Subject_Details"
+            android:label="Subject Details" />
         <activity
             android:name=".Activity.Attendance_page"
             android:label="Attendance" />
-        <activity android:name=".Activity.Home_Admin" />
-        <activity android:name=".Activity.Home_Tutor" />
+        <activity
+            android:name=".Activity.Home_Admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.Home_Tutor"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity.Splash_Screen"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme_noactionbar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

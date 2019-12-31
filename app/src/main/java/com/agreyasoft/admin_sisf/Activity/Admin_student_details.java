@@ -21,6 +21,10 @@ public class Admin_student_details extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_student_details);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+
         RecyclerView recyclerView=findViewById(R.id.recyclerView);
         GridLayoutManager gridLayoutManager = new GridLayoutManager(Admin_student_details.this,1);
         recyclerView.setLayoutManager(gridLayoutManager); // set LayoutManager to RecyclerView
@@ -30,4 +34,11 @@ public class Admin_student_details extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
 
     }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
+
 }

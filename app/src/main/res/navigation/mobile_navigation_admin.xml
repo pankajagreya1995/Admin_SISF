@@ -8,32 +8,32 @@
     <fragment
         android:id="@+id/navigation_home_admin"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Admin_Home"
-        android:label="                         Home"
+        android:label="Admin Home"
         tools:layout="@layout/fragment_frag__admin__home" />
 
     <fragment
         android:id="@+id/navigation_student_admin"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Admin_Student"
-        android:label="                         Student"
+        android:label="Admin Student"
         tools:layout="@layout/fragment_frag__admin__student" />
 
     <fragment
         android:id="@+id/navigation_batch_admin"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Admin_Batch"
-        android:label="                         Batch"
+        android:label= "Admin Batch"
         tools:layout="@layout/fragment_frag__admin__batch" />
 
     <fragment
         android:id="@+id/navigation_subject_admin"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Admin_Subject"
-        android:label="                         Subject"
+        android:label="Admin Subject"
         tools:layout="@layout/fragment_frag__admin__subject" />
 
 
     <fragment
         android:id="@+id/navigation_fee_managment_admin"
         android:name="com.agreyasoft.admin_sisf.Fragment.Frag_Admin_Fee"
-        android:label="                         Fee Management"
+        android:label="Admin Fee Management"
         tools:layout="@layout/fragment_frag__admin__fee" />
 
 </navigation>
