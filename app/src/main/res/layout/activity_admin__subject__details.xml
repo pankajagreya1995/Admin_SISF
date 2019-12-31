@@ -12,32 +12,40 @@
         android:layout_width="match_parent"
         android:layout_margin="11dp"
         app:cardElevation="11dp"
-        app:cardCornerRadius="4dp"
+        app:strokeWidth="0.1dp"
+        app:cardMaxElevation="11dp"
+        app:cardPreventCornerOverlap="true"
+        app:strokeColor="@color/colorTransparent"
+        app:cardCornerRadius="11dp"
         android:layout_height="wrap_content">
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
-            android:layout_margin="7dp"
+            android:layout_margin="11dp"
             android:layout_height="wrap_content">
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:orientation="horizontal"
+                android:layout_margin="11dp"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_height="wrap_content">
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:text="Subject Name :"
-                    android:layout_weight="1"
-                    android:textSize="16sp"
+                    android:textSize="22sp"
                     android:gravity="right"
-                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
                     android:layout_height="wrap_content"></TextView>
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:text="LW"
-                    android:layout_weight="1"
-                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="22sp"
                     android:layout_height="wrap_content"></TextView>
 
             </LinearLayout>
@@ -48,26 +56,26 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="Total Student :"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:textColor="@android:color/black"
                     android:layout_height="wrap_content"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="100"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"></TextView>
                 <TextView
                     android:layout_width="match_parent"
                     android:text="Total Pass :"
                     android:layout_weight="1"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:gravity="right"
                     android:textColor="@android:color/black"
                     android:layout_height="wrap_content"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="30"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"></TextView>
             </LinearLayout>
             <LinearLayout
@@ -77,26 +85,26 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="Total Eligible: "
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:textColor="@android:color/black"
                     android:layout_height="wrap_content"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="40"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"></TextView>
                 <TextView
                     android:layout_width="match_parent"
                     android:text="Total Ineligible : "
                     android:layout_weight="1"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:gravity="right"
                     android:textColor="@android:color/black"
                     android:layout_height="wrap_content"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="10"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"></TextView>
             </LinearLayout>
             <LinearLayout
@@ -106,26 +114,26 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="Total Enrolled :"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:textColor="@android:color/black"
                     android:layout_height="wrap_content"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="10"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"></TextView>
                 <TextView
                     android:layout_width="match_parent"
                     android:text="Total Self :"
                     android:layout_weight="1"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:gravity="right"
                     android:textColor="@android:color/black"
                     android:layout_height="wrap_content"></TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:text="10"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:layout_height="wrap_content"></TextView>
             </LinearLayout>
 
