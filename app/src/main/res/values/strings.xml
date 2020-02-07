@@ -20,6 +20,37 @@
         <item>Eligible</item>
         <item>InEligible</item>
     </string-array>
+    <string-array name="subject_list">
+        <item>AB</item>
+        <item>MA</item>
+        <item>FA</item>
+        <item>LW</item>
+        <item>PM</item>
+        <item>TX</item>
+        <item>FR</item>
+        <item>AA</item>
+        <item>FM</item>
+        <item>SBL</item>
+        <item>SBR</item>
+        <item>AFM</item>
+        <item>APM</item>
+        <item>ATX</item>
+        <item>AAA</item>
+    </string-array>
+
+    <string-array name="schedule_tutor_list">
+        <item>Select Tutor</item>
+        <item>Pankaj</item>
+        <item>Anil</item>
+        <item>Dashrath</item>
+    </string-array>
+    <string-array name="schedule_subject_list">
+        <item>Select Subject</item>
+        <item>MA</item>
+        <item>FA</item>
+        <item>LW</item>
+        <item>PM</item>
+    </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="rupee_sign">\u20B9</string>

@@ -2,6 +2,7 @@ package com.agreyasoft.admin_sisf.Fragment;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -11,7 +12,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
+import com.agreyasoft.admin_sisf.Activity.Add_Student;
+import com.agreyasoft.admin_sisf.Activity.Home_Admin;
 import com.agreyasoft.admin_sisf.Adapter.Adapter_student_admin;
 import com.agreyasoft.admin_sisf.Adapter.Adpter_Home_Admin;
 import com.agreyasoft.admin_sisf.POJO.Cons_Batch;
@@ -43,6 +47,14 @@ public class Frag_Admin_Student extends Fragment {
         List<Cons_Batch> batch_list=new ArrayList<>();
         Adapter_student_admin adapter=new Adapter_student_admin(batch_list,con);
         recyclerView.setAdapter(adapter);
+
+        ImageView btn_student_add=view.findViewById(R.id.btn_add_student);
+        btn_student_add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home_Admin.home_admin_Activity, Add_Student.class));
+            }
+        });
         return view;
     }
 

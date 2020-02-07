@@ -9,9 +9,13 @@
         android:roundIcon="@drawable/app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Schedule"></activity>
+        <activity
+            android:name=".Activity.Add_Student"
+            android:label="Add Student" />
         <activity
             android:name=".Activity.Add_Batch"
-            android:label="Add New Batch"></activity>
+            android:label="Add New Batch" />
         <activity
             android:name=".Activity.Tutor_list"
             android:label="Tutor List" />
@@ -35,6 +39,7 @@
             android:theme="@style/AppTheme_noactionbar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

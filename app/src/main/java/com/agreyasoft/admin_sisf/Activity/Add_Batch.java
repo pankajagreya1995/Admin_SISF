@@ -44,6 +44,7 @@ public class Add_Batch extends AppCompatActivity implements RangeTimePickerDialo
                 Show_time_picker();
             }
         });
+
     }
 
     private void Show_time_picker() {
@@ -67,6 +68,7 @@ public class Add_Batch extends AppCompatActivity implements RangeTimePickerDialo
         Toast.makeText(this, "Start: "+hourStart+":"+minuteStart+"\nEnd: "+hourEnd+":"+minuteEnd, Toast.LENGTH_SHORT).show();
         batch_time.setText(hourStart+":"+minuteStart+" - "+hourEnd+":"+minuteEnd);
     }
+
     @Override
     public boolean onSupportNavigateUp() {
         onBackPressed();

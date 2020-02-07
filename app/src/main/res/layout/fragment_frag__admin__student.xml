@@ -31,10 +31,16 @@
                     android:text="Admin Student"
                     android:textColor="@android:color/white"
                     android:textStyle="bold"
+                    android:layout_weight="1"
                     android:textSize="22sp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:layout_height="match_parent"></TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/btn_add_student"
+                    android:src="@android:drawable/ic_input_add"
+                    android:layout_height="match_parent"></ImageView>
             </LinearLayout>
 
 

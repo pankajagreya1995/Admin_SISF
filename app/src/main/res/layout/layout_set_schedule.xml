@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_margin="11dp"
+    android:padding="11dp"
+    app:strokeWidth="0.01dp"
+    app:cardMaxElevation="11dp"
+    android:elevation="11dp"
+    app:cardElevation="11dp"
+    app:cardCornerRadius="11dp"
+    app:strokeColor="@color/black_overlay"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="7dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="11dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="22sp"
+                android:text="11:35pm"
+                android:layout_height="wrap_content"></TextView>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:textSize="22sp"
+                android:entries="@array/schedule_subject_list"
+                android:text="Subject"
+                android:layout_height="wrap_content"></Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="11dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="22sp"
+                android:text="11:35pm"
+                android:layout_height="wrap_content"></TextView>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:textSize="22sp"
+                android:entries="@array/schedule_tutor_list"
+                android:text="Subject"
+                android:layout_height="wrap_content"></Spinner>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+</LinearLayout>

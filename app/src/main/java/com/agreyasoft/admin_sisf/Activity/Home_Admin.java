@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.agreyasoft.admin_sisf.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -34,6 +35,13 @@ public class Home_Admin extends AppCompatActivity{
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
+        FloatingActionButton fab=(FloatingActionButton)findViewById(R.id.fab_button);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home_Admin.this,Schedule.class));
+            }
+        });
         TextView btn_tutor=findViewById(R.id.tutor_list_btn);
         btn_tutor.setOnClickListener(new View.OnClickListener() {
             @Override
