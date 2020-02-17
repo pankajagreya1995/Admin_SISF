@@ -23,7 +23,6 @@
             android:layout_marginRight="11dp"
             android:layout_height="match_parent">
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:orientation="horizontal"
@@ -53,9 +52,7 @@
         android:id="@+id/recyclerView"
         android:clipToPadding="false"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:layoutAnimation="@anim/layout_animation_left_to_right"
         android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
 </LinearLayout>
-
 
 </FrameLayout>

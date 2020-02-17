@@ -12,6 +12,8 @@ import android.widget.SpinnerAdapter;
 
 import androidx.appcompat.widget.AppCompatSpinner;
 
+import com.agreyasoft.admin_sisf.R;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -25,14 +27,14 @@ public class MultiSelectionSpinner extends AppCompatSpinner implements DialogInt
     public MultiSelectionSpinner(Context context) {
         super(context);
 
-        _proxyAdapter = new ArrayAdapter<>(context, android.R.layout.simple_spinner_item);
+        _proxyAdapter = new ArrayAdapter<>(context, R.layout.layout_course_name);
         super.setAdapter(_proxyAdapter);
     }
 
     public MultiSelectionSpinner(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        _proxyAdapter = new ArrayAdapter<>(context, android.R.layout.simple_spinner_item);
+        _proxyAdapter = new ArrayAdapter<>(context, R.layout.layout_course_name);
         super.setAdapter(_proxyAdapter);
     }
 

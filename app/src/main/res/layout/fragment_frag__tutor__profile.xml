@@ -27,6 +27,7 @@
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:text="Tutor Profile"
@@ -40,11 +41,137 @@
 
 
         </androidx.appcompat.widget.Toolbar>
-        <!-- TODO: Update blank fragment layout -->
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Tutor Profile" />
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/successfully"
+                android:id="@+id/success_img"
+                android:visibility="gone"
+                android:layout_height="wrap_content"></ImageView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="66dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="111dp"
+                            android:layout_margin="22dp"
+                            android:src="@drawable/app_logo"></ImageView>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            app:errorEnabled="true"
+                            android:id="@+id/txt_namel"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="11dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txt_name"
+                                android:layout_gravity="bottom"
+                                android:gravity="bottom"
+                                android:background="@drawable/desc_field_selector"
+                                android:hint="Name"
+                                android:inputType="textPersonName"
+                                android:padding="11dp"  />
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            app:errorEnabled="true"
+                            android:id="@+id/txt_nol"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="11dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txt_no"
+                                android:layout_gravity="bottom"
+                                android:gravity="bottom"
+                                android:background="@drawable/desc_field_selector"
+                                android:hint="Mobile No."
+                                android:inputType="phone|none"
+                                android:padding="11dp"  />
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            app:errorEnabled="true"
+                            android:id="@+id/txt_emaill"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="11dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txt_email"
+                                android:layout_gravity="bottom"
+                                android:gravity="bottom"
+                                android:background="@drawable/desc_field_selector"
+                                android:hint="Email-ID"
+                                android:inputType="textEmailAddress"
+                                android:padding="11dp"  />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_margin="11dp"
+                            android:layout_height="wrap_content">
+                            <RadioGroup
+                                android:layout_width="match_parent"
+                                android:orientation="horizontal"
+                                android:padding="11dp"
+                                android:layout_height="wrap_content">
+                                <RadioButton
+                                    android:layout_width="match_parent"
+                                    android:text="Male"
+                                    android:id="@+id/rb_male"
+                                    android:checked="true"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"></RadioButton>
+                                <RadioButton
+                                    android:layout_width="match_parent"
+                                    android:text="Female"
+                                    android:id="@+id/rb_female"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"></RadioButton>
+                            </RadioGroup>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+            <TextView
+                android:id="@+id/txt_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="22dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="UPDATE"
+                android:padding="11dp"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
     </LinearLayout>
 
 

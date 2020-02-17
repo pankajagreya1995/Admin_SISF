@@ -24,6 +24,7 @@
                     android:layout_height="111dp"
                     android:layout_margin="22dp"
                     android:src="@drawable/app_logo"></ImageView>
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -31,8 +32,10 @@
                     app:passwordToggleContentDescription="show"
                     app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
                     app:passwordToggleEnabled="true"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp"
                     app:passwordToggleTint="@color/colorAccent"
-                    android:layout_margin="11dp">
+                   >
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -43,6 +46,7 @@
                         android:inputType="textPersonName"
                         android:padding="11dp"/>
                 </com.google.android.material.textfield.TextInputLayout>
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -51,7 +55,8 @@
                     app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
                     app:passwordToggleEnabled="true"
                     app:passwordToggleTint="@color/colorAccent"
-                    android:layout_margin="11dp">
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp">
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -62,6 +67,7 @@
                         android:inputType="textPersonName"
                         android:padding="11dp"/>
                 </com.google.android.material.textfield.TextInputLayout>
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -70,11 +76,159 @@
                     app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
                     app:passwordToggleEnabled="true"
                     app:passwordToggleTint="@color/colorAccent"
-                    android:layout_margin="11dp">
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:background="@drawable/desc_field_selector"
+                        android:hint="Father name"
+                        android:inputType="textPersonName"
+                        android:padding="11dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:passwordToggleContentDescription="show"
+                    app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorAccent"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:background="@drawable/desc_field_selector"
+                        android:hint="Mother name"
+                        android:inputType="textPersonName"
+                        android:padding="11dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:passwordToggleContentDescription="show"
+                    app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorAccent"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:background="@drawable/desc_field_selector"
+                        android:hint="Date Of Birth"
+                        android:inputType="textPersonName"
+                        android:padding="11dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:passwordToggleContentDescription="show"
+                    app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorAccent"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:background="@drawable/desc_field_selector"
+                        android:hint="Address"
+                        android:inputType="textPersonName"
+                        android:padding="11dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:passwordToggleContentDescription="show"
+                    app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorAccent"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp">
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/txt_passwordc"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:background="@drawable/desc_field_selector"
+                        android:hint="Date Of Joining"
+                        android:inputType="textPersonName"
+                        android:padding="11dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:passwordToggleContentDescription="show"
+                    app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorAccent"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:background="@drawable/desc_field_selector"
+                        android:hint="Parent's Mpbile No."
+                        android:inputType="textPersonName"
+                        android:padding="11dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:passwordToggleContentDescription="show"
+                    app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorAccent"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_passwordc"
+                        android:layout_gravity="bottom"
+                        android:gravity="bottom"
+                        android:background="@drawable/desc_field_selector"
+                        android:hint="Aadhar Card No."
+                        android:inputType="textPersonName"
+                        android:padding="11dp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:passwordToggleContentDescription="show"
+                    app:passwordToggleDrawable="@android:drawable/ic_lock_idle_lock"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorAccent"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginLeft="11dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
                         android:layout_gravity="bottom"
                         android:gravity="bottom"
                         android:background="@drawable/desc_field_selector"
@@ -85,9 +239,33 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_marginLeft="11dp"
+
+                    android:layout_height="wrap_content">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_weight="1"
+                       android:textSize="18dp"
+                       android:layout_margin="11dp"
+                       android:gravity="center"
+                       android:textColor="@android:color/black"
+                       android:background="@drawable/button_background"
+                       android:text="Upload 10th Marksheet"
+                       android:layout_height="wrap_content"></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="11dp"
+                        android:background="@drawable/button_background"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:text="Upload 12th Marksheet"
+                        android:layout_height="wrap_content"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_marginRight="11dp"
-                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="11dp"
                     android:padding="7dp"
                     android:layout_marginBottom="11dp"
                     android:background="@drawable/border_text_title"
@@ -110,66 +288,6 @@
                 </LinearLayout>
 
 
-                <co.ceryle.segmentedbutton.SegmentedButtonGroup
-                    android:layout_width="match_parent"
-                    android:layout_margin="11dp"
-                    app:sbg_animateSelector="bounce"
-                    app:sbg_animateSelectorDuration="1000"
-                    app:sbg_backgroundColor="@android:color/white"
-                    app:sbg_borderColor="@color/colorAccent"
-                    app:sbg_borderSize="2dp"
-                    android:id="@+id/segmentedButtonGroup"
-                    app:sbg_selectorColor="@color/colorAccent"
-                    app:sbg_position="0"
-                    app:sbg_enabled="true"
-                    app:sbg_rippleColor="@color/colorPrimaryDark"
-                    app:sbg_radius="11dp"
-                    app:sb_textColor_onSelection="@android:color/white"
-                    app:sbg_ripple="true"
-                    android:layout_height="38dp">
-                    <co.ceryle.segmentedbutton.SegmentedButton
-                        android:layout_width="match_parent"
-                        app:sb_text="ACCA"
-                        app:sb_textSize="16sp"
-                        android:layout_weight="1"
-                        app:sb_textColor_onSelection="@android:color/white"
-                        android:paddingBottom="5dp"
-                        android:paddingTop="5dp"
-                        android:paddingLeft="11dp"
-                        android:paddingRight="11dp"
-                        app:sb_textColor="@color/text_color"
-                        android:layout_height="match_parent">
-                    </co.ceryle.segmentedbutton.SegmentedButton>
-                    <co.ceryle.segmentedbutton.SegmentedButton
-                        android:layout_width="match_parent"
-                        app:sb_text="ACCA PRO"
-                        android:layout_weight="1"
-                        app:sb_textSize="16sp"
-                        app:sb_textColor_onSelection="@android:color/white"
-                        android:paddingBottom="5dp"
-                        android:paddingTop="5dp"
-                        android:id="@+id/btn_admin"
-                        android:paddingLeft="11dp"
-                        android:paddingRight="11dp"
-                        app:sb_textColor="@color/text_color"
-                        android:layout_height="match_parent">
-                    </co.ceryle.segmentedbutton.SegmentedButton>
-                    <co.ceryle.segmentedbutton.SegmentedButton
-                        android:layout_width="match_parent"
-                        app:sb_text="iGRAD in Finance"
-                        app:sb_textSize="13sp"
-                        android:layout_weight="1"
-                        android:id="@+id/btn_tutor"
-                        app:sb_textColor_onSelection="@android:color/white"
-                        android:paddingBottom="5dp"
-                        android:paddingTop="5dp"
-                        android:paddingLeft="11dp"
-                        android:paddingStart="11dp"
-                        android:paddingRight="11dp"
-                        app:sb_textColor="@color/text_color"
-                        android:layout_height="match_parent"></co.ceryle.segmentedbutton.SegmentedButton>
-                </co.ceryle.segmentedbutton.SegmentedButtonGroup>
-
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="match_parent"
                     android:layout_margin="11dp"
@@ -180,9 +298,56 @@
                     android:layout_height="wrap_content">
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/layout_acca"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginRight="11dp"
+                            android:layout_marginTop="11dp"
+                            android:background="@drawable/border_text_title"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:text="Course"
+                                android:padding="11dp"
+                                android:layout_weight="1.5"
+                                android:textSize="18sp"
+                                android:layout_height="wrap_content"></TextView>
+
+                            <Spinner
+                                android:id="@+id/sp_subject_acca"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:entries="@array/course_list"
+                                android:layoutMode="opticalBounds"
+                                android:spinnerMode="dialog"></Spinner>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="11dp"
+                            android:layout_marginRight="11dp"
+                            android:layout_marginTop="11dp"
+                            android:background="@drawable/border_text_title"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:text="Year"
+                                android:padding="11dp"
+                                android:layout_weight="1.5"
+                                android:textSize="18sp"
+                                android:layout_height="wrap_content"></TextView>
+
+                            <Spinner
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:entries="@array/year_list"
+                                android:layoutMode="opticalBounds"
+                                android:spinnerMode="dialog"></Spinner>
+                        </LinearLayout>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_marginLeft="11dp"
@@ -193,119 +358,23 @@
                             android:layout_height="wrap_content">
                             <TextView
                                 android:layout_width="match_parent"
-                                android:text="Subject"
+                                android:text="Student Type"
                                 android:padding="11dp"
                                 android:layout_weight="1.5"
                                 android:textSize="18sp"
                                 android:layout_height="wrap_content"></TextView>
 
-                            <com.agreyasoft.admin_sisf.UTILS.MultiSelectionSpinner
-                                android:id="@+id/sp_subject_acca"
+                            <Spinner
+
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
+                                android:entries="@array/type_list"
                                 android:layoutMode="opticalBounds"
-                                android:spinnerMode="dialog"></com.agreyasoft.admin_sisf.UTILS.MultiSelectionSpinner>
+                                android:spinnerMode="dialog"></Spinner>
                         </LinearLayout>
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:text="Fee Details"
-                            android:textSize="22sp"
-                            android:textStyle="bold"
-                            android:layout_marginLeft="11dp"
-                            android:textColor="@android:color/black"
-                            android:layout_height="wrap_content"></TextView>
-                        <com.google.android.material.textfield.TextInputLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:errorEnabled="true"
-                            android:layout_margin="11dp">
-
-                            <com.google.android.material.textfield.TextInputEditText
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom"
-                                android:gravity="bottom"
-                                android:background="@drawable/desc_field_selector"
-                                android:hint="Total Amount"
-                                android:inputType="number|none"
-                                android:padding="11dp"/>
-                        </com.google.android.material.textfield.TextInputLayout>
-                        <com.google.android.material.textfield.TextInputLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:errorEnabled="true"
-                            android:layout_margin="11dp">
-
-                            <com.google.android.material.textfield.TextInputEditText
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom"
-                                android:gravity="bottom"
-                                android:background="@drawable/desc_field_selector"
-                                android:hint="Total Paid"
-                                android:inputType="number|none"
-                                android:padding="11dp"/>
-                        </com.google.android.material.textfield.TextInputLayout>
-                        <com.google.android.material.textfield.TextInputLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:errorEnabled="true"
-                            android:layout_margin="11dp">
-
-                            <com.google.android.material.textfield.TextInputEditText
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom"
-                                android:gravity="bottom"
-                                android:background="@drawable/desc_field_selector"
-                                android:hint="Total Due"
-                                android:inputType="number|none"
-                                android:padding="11dp"/>
-                        </com.google.android.material.textfield.TextInputLayout>
-                        <com.google.android.material.textfield.TextInputLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:errorEnabled="true"
-                            android:layout_margin="11dp">
-
-                            <com.google.android.material.textfield.TextInputEditText
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom"
-                                android:gravity="bottom"
-                                android:background="@drawable/desc_field_selector"
-                                android:hint="Remark"
-                                android:inputType="number|none"
-                                android:padding="11dp"/>
-                        </com.google.android.material.textfield.TextInputLayout>
                     </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/layout_acca_pro"
-                        android:visibility="gone"
-                        android:orientation="vertical">
 
-                        <TextView
-                            android:id="@+id/btn_add_subject"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:background="@drawable/border_text_title"
-                            android:gravity="center"
-                            android:text="Add Subject"
-                            android:layout_margin="11dp"
-                            android:textColor="@android:color/black"
-                            android:textSize="22sp"></TextView>
-                        <androidx.recyclerview.widget.RecyclerView
-                            android:id="@+id/recyclerView"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:clipToPadding="false"
-                            android:layoutAnimation="@anim/layout_animation_left_to_right"
-                            app:layout_behavior="@string/appbar_scrolling_view_behavior"></androidx.recyclerview.widget.RecyclerView>
-                    </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
         </LinearLayout>
@@ -320,7 +389,8 @@
         android:background="@color/colorAccent"
         android:fontFamily="serif-monospace"
         android:gravity="center"
-        android:text="SUBMIT"
+        android:text="NEXT"
+        android:onClick="button_next"
         android:padding="15dp"
         android:textColor="@android:color/white"
         android:textSize="25dp"

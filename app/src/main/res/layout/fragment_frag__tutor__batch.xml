@@ -44,7 +44,6 @@
             android:layout_width="match_parent"
             android:id="@+id/recyclerView"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            android:layoutAnimation="@anim/layout_animation_left_to_right"
             android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
 
     </LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_margin="11dp"
+    app:cardCornerRadius="11dp"
+    app:cardElevation="11dp"
+   app:cardMaxElevation="11dp"
+    app:cardPreventCornerOverlap="true"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="22sp"
+        android:text="ACCA Pro"
+        android:textSize="22dp"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:paddingRight="11dp"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>

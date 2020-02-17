@@ -26,7 +26,6 @@ public class Attendance_page extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-
         RecyclerView recyclerView=findViewById(R.id.recyclerView);
         GridLayoutManager gridLayoutManager = new GridLayoutManager(con,1);
         recyclerView.setLayoutManager(gridLayoutManager); // set LayoutManager to RecyclerView

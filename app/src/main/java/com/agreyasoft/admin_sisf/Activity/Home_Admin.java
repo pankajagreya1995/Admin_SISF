@@ -42,6 +42,7 @@ public class Home_Admin extends AppCompatActivity{
                 startActivity(new Intent(Home_Admin.this,Schedule.class));
             }
         });
+
         TextView btn_tutor=findViewById(R.id.tutor_list_btn);
         btn_tutor.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,10 +50,11 @@ public class Home_Admin extends AppCompatActivity{
                 startActivity(new Intent(Home_Admin.this,Tutor_list.class));
             }
         });
+
         navView = findViewById(R.id.nav_view_admin);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        try{     AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
+        try{  AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.navigation_home_admin, R.id.navigation_student_admin, R.id.navigation_batch_admin, R.id.navigation_subject_admin, R.id.navigation_fee_managment_admin)
                 .build();
             navController = Navigation.findNavController(Home_Admin.this, R.id.nav_host_fragment_admin);
@@ -61,8 +63,6 @@ public class Home_Admin extends AppCompatActivity{
          }catch (Exception e){
             Toast.makeText(home_admin_Activity, e.getMessage(), Toast.LENGTH_SHORT).show();
             e.printStackTrace();}
-
     }
-
 
 }

@@ -33,5 +33,6 @@ public class Splash_Screen extends AppCompatActivity {
             }
         };
         handler.postDelayed(runnable,5000);
+
     }
 }

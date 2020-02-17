@@ -18,14 +18,23 @@
     android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
     tools:ignore="MissingConstraints">
-    <LinearLayout
-
+    <RelativeLayout
         android:orientation="horizontal"
         android:layout_marginRight="18dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         android:layout_width="match_parent"
+        android:gravity="center"
         android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:layout_width="25dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/backButton"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:background="@drawable/ic_back"
+            android:gravity="center"
+            android:layout_height="wrap_content"></TextView>
         <TextView
             android:layout_width="match_parent"
             android:text="Admin Subject"
@@ -35,17 +44,15 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:layout_height="match_parent"></TextView>
-    </LinearLayout>
+    </RelativeLayout>
 
 
 </androidx.appcompat.widget.Toolbar>
-    <androidx.recyclerview.widget.RecyclerView
+
+    <ListView
         android:layout_width="match_parent"
-        android:id="@+id/recyclerView"
-        android:clipToPadding="false"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:layoutAnimation="@anim/layout_animation_left_to_right"
-        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+        android:id="@+id/subject_list"
+        android:layout_height="wrap_content"></ListView>
 
 </LinearLayout>
 
