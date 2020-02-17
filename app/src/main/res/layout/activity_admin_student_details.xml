@@ -7,223 +7,518 @@
     android:orientation="vertical"
     tools:context=".Activity.Admin_student_details">
 
-    <com.google.android.material.card.MaterialCardView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_margin="11dp"
-        app:cardElevation="11dp"
-        app:cardCornerRadius="11dp"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="vertical"
-            android:layout_margin="11dp"
-            android:id="@+id/layout"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="match_parent"
-                android:text="Student Details "
-                android:textSize="22sp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:textColor="@android:color/black"
-                android:layout_height="wrap_content"></TextView>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Student Name: "
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="XYZ"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Subject Name: "
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="LW, AB, FA"
-                    android:textSize="16sp"
-                    android:layout_height="wrap_content"></TextView>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Mobile No.:"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="9988776655"
-                    android:textSize="16sp"
-                    android:layout_height="wrap_content"></TextView>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Date Of Joining: "
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="12 June 2019"
-                    android:textSize="16sp"
-                    android:layout_height="wrap_content"></TextView>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Batch: "
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="B.One, B.Two, B.Three."
-                    android:textSize="16sp"
-                    android:layout_height="wrap_content"></TextView>
-
-            </LinearLayout>
-
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-    <com.google.android.material.card.MaterialCardView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_margin="11dp"
-        app:cardElevation="11dp"
-        app:cardCornerRadius="11dp"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="vertical"
-            android:layout_margin="11dp"
-            android:layout_height="wrap_content">
-            <TextView
-                android:layout_width="match_parent"
-                android:text="Fee Details "
-                android:textSize="22sp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:textColor="@android:color/black"
-                android:layout_height="wrap_content"></TextView>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Total Amount :"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="10,000"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Total Paid :"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="5,000"
-                    android:textSize="16sp"
-                    android:layout_height="wrap_content"></TextView>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Total Due :"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="5,000"
-                    android:textSize="16sp"
-                    android:layout_height="wrap_content"></TextView>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Remark :"
-                    android:textSize="16sp"
-                    android:textColor="@android:color/black"
-                    android:layout_height="wrap_content"></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:text="Give some discount"
-                    android:textSize="16sp"
-                    android:layout_height="wrap_content"></TextView>
-
-            </LinearLayout>
-
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:clipToPadding="false"
-        android:layoutAnimation="@anim/layout_animation_left_to_right"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"></androidx.recyclerview.widget.RecyclerView>
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_margin="11dp"
+
+                app:cardElevation="11dp"
+                app:cardCornerRadius="11dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="11dp"
+                    android:id="@+id/layout"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Student Details "
+                        android:textSize="22sp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content"></TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Student Name :"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="XYZ"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Father's Name: "
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Ram"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Mother's Name: "
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Sita"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Subject Name: "
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="LW, AB, FA"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Date Of Birth: "
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="12 Jan 2020"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Email ID:"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="student@gmail.com "
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Gender :"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Male"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Date Of Joining: "
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="12 June 2019"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Batch: "
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="B.One, B.Two, B.Three."
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Student Type :"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Internal"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Aadhar No :"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="9786 6478 5283"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Address :"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Ashok nagar,Udaipur,Raj."
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_margin="11dp"
+                app:cardElevation="11dp"
+                app:cardCornerRadius="11dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="11dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Contact No."
+                        android:textSize="22sp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content"></TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Student's Mobile No.:"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="9988776655"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Parents's Mobile No.:"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="9988776655"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_margin="11dp"
+                app:cardElevation="11dp"
+                app:cardCornerRadius="11dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="11dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Course"
+                        android:textSize="22sp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Course Year :"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="1st Year"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Course Name:"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Acca"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_margin="11dp"
+                app:cardElevation="11dp"
+                app:cardCornerRadius="11dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="11dp"
+                    android:weightSum="1"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="EMI SCHEDULE LIST"
+                        android:textSize="22sp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content"></TextView>
+
+                    <ExpandableListView
+                        android:id="@+id/expandableListView"
+                        android:layout_height="200dp"
+                        android:minHeight="200dp"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:nestedScrollingEnabled="true"
+                        android:indicatorRight="?android:attr/expandableListPreferredItemIndicatorLeft"
+                        android:divider="@android:color/darker_gray"
+                      />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_margin="11dp"
+                app:cardElevation="11dp"
+                app:cardCornerRadius="11dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="11dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Fee Details "
+                        android:textSize="22sp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:layout_height="wrap_content"></TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Total Amount :"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="10,000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Total Paid :"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="5,000"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Total Due :"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="5,000"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Remark :"
+                            android:textSize="16sp"
+                            android:textColor="@android:color/black"
+                            android:layout_height="wrap_content"></TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Give some discount"
+                            android:textSize="16sp"
+                            android:layout_height="wrap_content"></TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Fee Credit List "
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:nestedScrollingEnabled="false"
+                android:clipToPadding="false"
+                android:layoutAnimation="@anim/layout_animation_left_to_right"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"></androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
 
 </LinearLayout>

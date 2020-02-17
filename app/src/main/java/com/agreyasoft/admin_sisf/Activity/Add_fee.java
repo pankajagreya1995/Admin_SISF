@@ -19,6 +19,9 @@ public class Add_fee extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_fee);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         String[] subject_item=new String[]{"Recording Financial Tranactions",
                 "Managemant Information", "Maintaining Financial Records", "Managing Coasts and Finance",
                 "Account in Business", "Managemant Accounting", "Financial Accounting", "Corporate Law", "Performnace Management", "Taxation", "Financial Reporting",
@@ -30,5 +33,15 @@ public class Add_fee extends AppCompatActivity {
 
         MultiSelectionSpinner sp_subject_list2=findViewById(R.id.sp_subject_acca2);
         sp_subject_list2.setItemsChecked(subject_item);
+
+        MultiSelectionSpinner sp_subject_book_kit=findViewById(R.id.sp_subject_acca3);
+        sp_subject_book_kit.setItemsChecked(subject_item);
+
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

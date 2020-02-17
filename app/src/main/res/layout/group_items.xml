@@ -6,7 +6,7 @@
     android:orientation="vertical">
 <androidx.cardview.widget.CardView
     android:layout_width="match_parent"
-    android:layout_margin="11dp"
+    android:layout_margin="7dp"
     app:cardCornerRadius="11dp"
     app:cardElevation="11dp"
    app:cardMaxElevation="11dp"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="22sp"
         android:text="ACCA Pro"
-        android:textSize="22dp"
+        android:textSize="20dp"
         android:paddingTop="11dp"
         android:paddingBottom="11dp"
         android:paddingRight="11dp"

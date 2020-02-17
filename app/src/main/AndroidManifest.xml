@@ -9,7 +9,10 @@
         android:roundIcon="@drawable/app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.Add_fee"></activity>
+        <activity android:name=".Activity.Show_attendance"></activity>
+        <activity
+            android:name=".Activity.Add_fee"
+            android:label="Fee Details" />
         <activity android:name=".Activity.Schedule" />
         <activity
             android:name=".Activity.Add_Student"

@@ -1,6 +1,5 @@
 package com.agreyasoft.admin_sisf.Adapter;
 
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -46,7 +45,7 @@ public class Adapter_Course extends BaseExpandableListAdapter {
         }
 
         TextView sequence = (TextView) view.findViewById(R.id.sequence);
-        sequence.setText(detailInfo.getSequence().trim() + ". ");
+        sequence.setText(detailInfo.getSequence().trim());
         TextView childItem = (TextView) view.findViewById(R.id.childItem);
         childItem.setText(detailInfo.getName().trim());
 

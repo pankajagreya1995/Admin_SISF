@@ -100,7 +100,6 @@ public class Frag_Admin_Subject extends Fragment {
                 "Advance Perform Management(optional)", "Advanced Taxation(optional)", "Advanced Audit and Assurance(optional)", "Entry Certificate in business Analysis(ECBA)",
                 "Interpersonal skills & Communication proficiency", "Analytical & Research Skills", "Computer Proficiency", "Problem solving & decision-making abilities", "Ethics & integrity", "Professional Competence"};
 
-
         course_ncfm = new String[]{"Certifiication by NSC (NCFM)-Beginners Module", "Certifiication by NSC (NCFM)-Intermediate Module", "Certifiication by NSC (NCFM)-Advance Module"};
 
         adapter = new ArrayAdapter<String>(home_admin_Activity, android.R.layout.simple_list_item_1, course_list);

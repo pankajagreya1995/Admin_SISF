@@ -389,7 +389,7 @@
         android:background="@color/colorAccent"
         android:fontFamily="serif-monospace"
         android:gravity="center"
-        android:text="NEXT"
+        android:text="NEXT >>"
         android:onClick="button_next"
         android:padding="15dp"
         android:textColor="@android:color/white"
